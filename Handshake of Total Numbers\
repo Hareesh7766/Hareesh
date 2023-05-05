@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class handshake26 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a Number of Peoples in the Room: ");
+		int num = sc.nextInt();
+		int total = num*(num-1)/2;
+		System.out.println("Total Number of HandShanke:"+total);
+	}
+
+}
