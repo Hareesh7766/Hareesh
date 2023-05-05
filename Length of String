@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class stringlength30 {
+
+	public static void main(String[] args) {
+		int i=0;
+		Scanner sc = new Scanner(System.in);
+        System.out.print("Enetr A string");
+        String str1 = sc.nextLine();
+        char ch[]=str1.toCharArray();
+        for(char c:ch)
+        {
+        	i++;
+        }
+        System.out.println("Length of the String:"+i);
+	}
+
+}
