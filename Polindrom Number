@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class polindromeNumber21 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter A Number");
+		int num=sc.nextInt();
+		int rem=0;
+		int rev=0;
+		int copy=num;
+		while(num!=0) {
+			rem=num%10;
+			rev=rev*10+rem;
+			num=num/10;
+		}
+		if(rev==copy) 
+			System.out.println("it is a polindrome Number");
+			else
+				System.out.println("it is not a polindrome Number");
+
+	}
+
+}
